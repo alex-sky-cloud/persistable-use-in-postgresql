@@ -1,0 +1,3 @@
+ALTER TABLE IF EXISTS columns
+ADD CONSTRAINT name_uniq
+UNIQUE (name);

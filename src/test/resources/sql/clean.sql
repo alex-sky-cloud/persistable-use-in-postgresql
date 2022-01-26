@@ -1,0 +1,1 @@
+truncate table mesh, mesh_cell, mesh_column, mesh_line;
