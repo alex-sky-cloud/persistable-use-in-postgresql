@@ -16,7 +16,6 @@ public class GridController {
         this.gridService = gridService;
     }
 
-// ToDo: implement getAll, create, update and delete
 
     @GetMapping("v1")
     public List<MeshDto> getGridList (){
