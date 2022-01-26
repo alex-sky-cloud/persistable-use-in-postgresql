@@ -13,11 +13,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * TestRestTemplate автоматически настраивается только в том случае,
- * если @SpringBootTestон был настроен с помощью awebEnvironment,
- * что означает, что он запускает веб-контейнер и прослушивает HTTP-запросы.
- */
 class GridControllerTest extends PersistableUseInPostgresqlApplicationTests {
 
     @Autowired
