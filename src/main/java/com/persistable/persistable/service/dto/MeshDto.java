@@ -24,10 +24,10 @@ public class MeshDto {
     @Max(100_000)
     private int cellSize;
 
-    @JsonIgnore
+    //@JsonIgnore
     private List<MeshColumn> columns;
 
-    @JsonIgnore
+    //@JsonIgnore
     private List<MeshLine> rows;
 
     public Long getId() {
