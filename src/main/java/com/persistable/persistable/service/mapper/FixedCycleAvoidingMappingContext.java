@@ -30,7 +30,7 @@ public class FixedCycleAvoidingMappingContext  {
         knownInstances.put( toKey( source ), target );
     }
 
-    Key toKey(Object source) {
+    private Key toKey(Object source) {
         if ( source instanceof AbstractEntity) {
             Serializable id = ( (AbstractEntity<?>) source ).getId();
             return new Key( source, id );
